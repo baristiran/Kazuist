@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add README.md && git commit -m \"README: add kazuist.com redirect, remove Claude contributor\" && git push)",
+      "Bash(git checkout --orphan fresh && git add -A && git commit -m \"Kazuist — AI-Powered Turkish Law Education Ecosystem\" && git branch -D main && git branch -m main && git push --force origin main)"
+    ]
+  }
+}
